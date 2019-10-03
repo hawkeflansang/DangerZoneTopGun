@@ -1,0 +1,57 @@
+p {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.space {
+    line-height: 50px;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+a:active {
+    background-color: olive;
+}
+
+a:focus{
+    background-color: aquamarine
+}
+
+.background {
+    z-index: 1;
+    position: absolute;
+    display: block;
+}
+
+.top {
+    z-index: 2;
+    position: relative;
+}
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+a:link {
+    color: blanchedalmond;
+}
+
+a:visited {
+    color: wheat;
+}
